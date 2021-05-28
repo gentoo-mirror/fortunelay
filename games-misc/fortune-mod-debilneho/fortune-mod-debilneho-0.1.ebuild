@@ -22,7 +22,6 @@ src_compile() {
 	strfile debilneho || die
 }
 
-
 src_install() {
 	insinto /usr/share/fortune
 	doins debilneho debilneho.dat
