@@ -7,7 +7,7 @@ DESCRIPTION="Fortune database of quotes from bashfr.org"
 HOMEPAGE="http://www.bashfr.org"
 SRC_URI="http://distfiles.zugaina.org/bashfr-20080407.gz"
 
-LICENSE="GPL-2"
+LICENSE="GPL-2 fairuse"
 SLOT="0"
 KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 s390 sparc x86"
 
