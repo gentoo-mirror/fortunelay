@@ -15,7 +15,7 @@ BDEPEND="games-misc/fortune-mod"
 RDEPEND="games-misc/fortune-mod"
 
 src_unpack() {
-	cp "${DISTDIR}/liberty" "${S}/liberty"
+	cp "${DISTDIR}/liberty" "${S}/liberty" || die
 }
 
 src_compile() {
