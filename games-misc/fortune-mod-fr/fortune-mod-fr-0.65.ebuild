@@ -9,7 +9,7 @@ SRC_URI="mirror://debian/pool/main/f/fortunes-fr/fortunes-fr_0.65+nmu3_all.deb"
 S="${WORKDIR}"
 LICENSE="GFDL-1.1+ fairuse public-domain"
 SLOT="0"
-KEYWORDS="alpha amd64 arm hppa ia64 m68k mips ppc ppc64 s390 sparc x86"
+KEYWORDS="~alpha ~amd64 ~arm ~hppa ~m68k ~mips ~ppc64 ~s390 ~x86"
 
 RDEPEND="games-misc/fortune-mod"
 
