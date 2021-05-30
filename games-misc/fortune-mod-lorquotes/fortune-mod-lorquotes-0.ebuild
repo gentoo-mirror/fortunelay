@@ -29,6 +29,6 @@ src_compile() {
 }
 
 src_install() {
-	insinto /usr/share/fortune
+	insinto /usr/share/fortune/ru
 	doins "${PN}" "${PN}.dat"
 }
