@@ -16,10 +16,15 @@ RDEPEND="games-misc/fortune-mod"
 src_unpack() {
 	default
 	tar -xJf data.tar.xz || die
+
+	pushd usr/share/doc/fortunes-fr || die
+	gunzip changelog.gz || die
+	popd || die
 }
 
 src_install() {
 	insinto /usr/share/fortune/fr
 	doins -r usr/share/games/fortunes-fr/.
 	doins -r usr/share/games/fortunes/fr/.
+	dodoc -r usr/share/doc/fortunes-fr/.
 }
