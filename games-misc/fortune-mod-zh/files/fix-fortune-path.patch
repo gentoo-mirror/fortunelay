@@ -1,0 +1,17 @@
+--- a/usr/games/fortune-zh
++++ b/usr/games/fortune-zh
+@@ -2,12 +2,12 @@
+ # fortune-zh
+ set -e
+ 
+-FORTUNE="/usr/games/fortune"
++FORTUNE="/usr/bin/fortune"
+ [ -x $FORTUNE ] || ( echo "E: Please install package 'fortune-mod'."; false )
+ 
+ # The old version (1.*) of fortune-zh contains only tang300 and song100.
+ # Note, $\sum_{i} P_i = 1$, i.e. all the possibilities must sum to 1.
+-DICT="7% tang300 2% song100 91% chinese"
++DICT="7% zh/tang300 2% zh/song100 91% zh/chinese"
+ 
+ # check LANG
+ if [ ! -z $LC_ALL ]; then 
