@@ -23,6 +23,6 @@ src_compile() {
 }
 
 src_install() {
-	insinto /usr/share/fortune/rkba
+	insinto /usr/share/fortune
 	doins rkba rkba.dat
 }
