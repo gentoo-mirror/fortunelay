@@ -19,6 +19,6 @@ src_compile() {
 }
 
 src_install() {
-	insinto /usr/share/fortune/fr
+	insinto /usr/share/fortune
 	doins bashfr bashfr.dat || die
 }

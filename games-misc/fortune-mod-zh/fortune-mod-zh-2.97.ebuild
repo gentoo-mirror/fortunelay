@@ -36,7 +36,7 @@ src_install() {
 	dobin usr/games/fortune-zh
 	doman usr/share/man/man6/*
 	doman -i18n=zh_CN usr/share/man/zh_CN/man6/*
-	insinto /usr/share/fortune/zh
+	insinto /usr/share/fortune
 	doins -r usr/share/games/fortunes/.
 	dodoc -r usr/share/doc/fortunes-zh/.
 }

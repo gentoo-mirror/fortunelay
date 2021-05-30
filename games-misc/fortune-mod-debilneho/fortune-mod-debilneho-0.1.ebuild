@@ -23,6 +23,6 @@ src_compile() {
 }
 
 src_install() {
-	insinto /usr/share/fortune/sk
+	insinto /usr/share/fortune
 	doins debilneho debilneho.dat
 }

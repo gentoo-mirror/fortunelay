@@ -16,7 +16,7 @@ RDEPEND="games-misc/fortune-mod"
 src_install() {
 	dodoc README.md
 	cd files || die
-	insinto /usr/share/fortune/it
+	insinto /usr/share/fortune
 	doins "${PN}" "${PN}".dat
 
 }

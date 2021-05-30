@@ -23,7 +23,7 @@ src_unpack() {
 }
 
 src_install() {
-	insinto /usr/share/fortune/fr
+	insinto /usr/share/fortune
 	doins -r usr/share/games/fortunes-fr/.
 	doins -r usr/share/games/fortunes/fr/.
 	dodoc -r usr/share/doc/fortunes-fr/.
