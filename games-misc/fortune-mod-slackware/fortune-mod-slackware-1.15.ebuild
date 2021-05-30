@@ -32,18 +32,17 @@ src_prepare() {
 	eapply_user
 	mkdir html || die
 	mv *.htm* html/ || die
-	for f in slack-fortunes-vol* ; do
-		cat "${f}" >> slack-fortunes || die
-	done
 }
 
 src_compile() {
-	strfile slack-fortunes || die
+	for f in slack-fortunes-vol* ; do
+		strfile "${f}" || die
+	done
 }
 
 src_install() {
 	dodoc -r html
 	docompress -x "/usr/share/doc/${P}/html"
-	insinto /usr/share/fortune
-	doins slack-fortunes{,.dat}
+	insinto /usr/share/fortune/off
+	doins slack-fortunes-vol-*
 }
