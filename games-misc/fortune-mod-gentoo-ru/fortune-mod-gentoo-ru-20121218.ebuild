@@ -20,6 +20,6 @@ src_compile() {
 }
 
 src_install() {
-	insinto /usr/share/fortune
+	insinto /usr/share/fortune/ru
 	doins gentoo-ru gentoo-ru.dat
 }
