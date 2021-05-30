@@ -23,6 +23,6 @@ src_compile() {
 }
 
 src_install() {
-	insinto /usr/share/fortune/liberty
+	insinto /usr/share/fortune
 	doins liberty liberty.dat
 }
