@@ -28,6 +28,6 @@ src_compile() {
 }
 
 src_install() {
-	insinto /usr/share/fortune/steven-wright
+	insinto /usr/share/fortune
 	doins steven-wright steven-wright.dat
 }
