@@ -23,6 +23,6 @@ src_compile() {
 }
 
 src_install() {
-	insinto /usr/share/fortune/esr-misc
+	insinto /usr/share/fortune
 	doins esr-misc esr-misc.dat
 }
