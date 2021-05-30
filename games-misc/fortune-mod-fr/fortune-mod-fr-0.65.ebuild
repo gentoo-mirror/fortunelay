@@ -7,7 +7,7 @@ DESCRIPTION="French fortunes cookies"
 HOMEPAGE="https://tracker.debian.org/pkg/fortunes-fr"
 SRC_URI="mirror://debian/pool/main/f/fortunes-fr/fortunes-fr_0.65+nmu3_all.deb"
 S="${WORKDIR}"
-LICENSE="GFDL-1.1+ fairuse public-domain"
+LICENSE="FDL-1.1+ fairuse public-domain"
 SLOT="0"
 KEYWORDS="~alpha ~amd64 ~arm ~hppa ~m68k ~mips ~ppc64 ~s390 ~x86"
 
