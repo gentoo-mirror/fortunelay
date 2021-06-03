@@ -1,0 +1,10 @@
+DEFINED_PHASES=compile install
+DESCRIPTION=Fortune database of quotes from bashfr.org
+EAPI=7
+HOMEPAGE=http://www.bashfr.org
+KEYWORDS=~alpha ~amd64 ~arm ~hppa ~m68k ~mips ~ppc64 ~s390 ~x86
+LICENSE=GPL-2 fairuse
+RDEPEND=games-misc/fortune-mod
+SLOT=0
+SRC_URI=http://distfiles.zugaina.org/bashfr-20080407.gz
+_md5_=866cbd692fde8a56d080e5eb5a82ef83

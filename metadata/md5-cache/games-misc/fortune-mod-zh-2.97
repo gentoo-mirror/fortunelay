@@ -1,0 +1,10 @@
+DEFINED_PHASES=install unpack
+DESCRIPTION=Chinese fortunes cookies
+EAPI=7
+HOMEPAGE=https://tracker.debian.org/pkg/fortunes-zh
+KEYWORDS=amd64 arm m68k mips ppc64 s390 x86
+LICENSE=GPL-3+ fairuse
+RDEPEND=games-misc/fortune-mod
+SLOT=0
+SRC_URI=http://ftp.fi.debian.org/debian/pool/main/f/fortune-zh/fortunes-zh_2.97_all.deb
+_md5_=80079870037472a1955957ac2056870d

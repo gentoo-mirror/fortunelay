@@ -1,0 +1,11 @@
+BDEPEND=games-misc/fortune-mod virtual/libiconv
+DEFINED_PHASES=compile install prepare
+DESCRIPTION=The best phrases of Linux.Org.Ru members
+EAPI=7
+HOMEPAGE=http://lorquotes.ru
+KEYWORDS=~amd64 ~arm ~amd64-linux ~x86-linux
+LICENSE=WTFPL-2 fairuse
+RDEPEND=games-misc/fortune-mod
+SLOT=0
+SRC_URI=http://lorquotes.ru/fortraw.php
+_md5_=b5046eed7b8f643bcebf450d58c94c58

@@ -1,0 +1,11 @@
+BDEPEND=games-misc/fortune-mod
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Various quotes
+EAPI=7
+HOMEPAGE=http://www.catb.org/~esr/fortunes
+KEYWORDS=~alpha ~amd64 ~hppa ~mips ~x86
+LICENSE=fairuse
+RDEPEND=games-misc/fortune-mod
+SLOT=0
+SRC_URI=http://www.catb.org/~esr/fortunes/misc
+_md5_=d9d5e58a9788cd4dfb8430c8ab1b408b

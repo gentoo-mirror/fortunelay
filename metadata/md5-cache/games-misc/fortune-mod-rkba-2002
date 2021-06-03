@@ -1,0 +1,11 @@
+BDEPEND=games-misc/fortune-mod
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=Quotes on firearms, the Second Amendment, and the right to keep and bear arms
+EAPI=7
+HOMEPAGE=http://www.catb.org/~esr/fortunes
+KEYWORDS=~alpha ~amd64 ~hppa ~mips ~x86
+LICENSE=fairuse
+RDEPEND=games-misc/fortune-mod
+SLOT=0
+SRC_URI=http://www.catb.org/~esr/fortunes/rkba
+_md5_=d01f46ec250889b48fa9c13058c11b9d
