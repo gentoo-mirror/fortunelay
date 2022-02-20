@@ -1,0 +1,13 @@
+BDEPEND=app-arch/p7zip X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
+DEFINED_PHASES=install postinst postrm setup
+DESCRIPTION=Mojikyo Character Map
+EAPI=7
+HOMEPAGE=https://archive.org/details/MojikyoCmap400ALL49TTF.7z
+INHERIT=font
+IUSE=X
+KEYWORDS=~amd64
+LICENSE=mojikyo
+SLOT=0
+SRC_URI=https://archive.org/download/MojikyoCmap400ALL49TTF.7z/MojikyoCmap400%2BALL49TTF.7z
+_eclasses_=font	0667878c2b594871023dd1833d05996f
+_md5_=8d8318da714fe69da7ce4c3dfc63f446
